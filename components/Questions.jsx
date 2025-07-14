@@ -70,15 +70,15 @@ const Questions = ({
 
   if (showResult) {
     return (
-      <div className="bg-[#F0F0F0] min-h-screen flex items-center justify-center p-4">
-        <div className="max-w-6xl w-full bg-[#d6bfbf] rounded-3xl p-8 shadow-2xl border border-white/20">
+      <div className="bg-[#dfcfcf] min-h-screen flex items-center justify-center p-4">
+        <div className="max-w-6xl w-full bg-[#3442ff] rounded-3xl p-8 shadow-2xl border border-white/20">
           <div className="text-center mb-8">
             <div className="text-8xl mb-4">{resultData.emoji}</div>
             <h1 className="text-4xl font-bold text-white mb-2">Quiz Complete!</h1>
             <p className="text-xl text-gray-300">Great job, {userName}!</p>
           </div>
 
-          <div className="bg-[#1b1138] rounded-2xl p-8 mb-8 text-center">
+          <div className="bg-[#3b2383] rounded-2xl p-8 mb-8 text-center">
             <div className="text-6xl font-bold text-white mb-2">{score}/10</div>
             <h2 className="text-2xl font-semibold text-white mb-2">Your Score</h2>
             <p className="text-lg text-gray-300 mb-4">{selectedCategoryData.name}</p>
@@ -140,7 +140,7 @@ const Questions = ({
 
   return (
     <div className="bg-[#F0F0F0] min-h-screen flex items-center justify-center p-4">
-      <div className="max-w-7xl w-full bg-[#96878793] rounded-3xl p-8 shadow-2xl border border-white/20">
+      <div className="max-w-7xl w-full bg-[#6c87e093] rounded-3xl p-8 shadow-2xl border border-white/20">
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-3">
             <div className="text-3xl">{selectedCategoryData.icon}</div>
